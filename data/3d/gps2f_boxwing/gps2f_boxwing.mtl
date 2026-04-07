@@ -1,0 +1,23 @@
+# Blender 3.5.1 MTL File: 'gps2f.blend'
+# www.blender.org
+# Modified: Solar Panel arrays, Gold MLI bus
+
+newmtl Array_mat
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.720000 0.720000 0.720000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+
+newmtl Bus_mat
+Ns 51.200000
+Ka 1.000000 1.000000 1.000000
+Kd 0.108000 0.108000 0.108000
+Ks 0.612000 0.612000 0.612000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3

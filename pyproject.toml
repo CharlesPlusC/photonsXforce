@@ -1,0 +1,52 @@
+[project]
+name = "photonsxforce"
+version = "1.0.0"
+description = "Differentiable Radiation Pressure Modeling - code for 'Photons x Force' (SIGGRAPH/TOG 2026)"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Charles Constant"},
+    {name = "Elizabeth Bates"},
+    {name = "Santosh Bhattarai"},
+    {name = "Marek Ziebart"},
+    {name = "Tobias Ritschel"},
+]
+
+dependencies = [
+    "jax[cpu]>=0.4.20",
+    "jaxlib>=0.4.20",
+    "numpy>=1.24",
+    "optax>=0.1.7",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "tqdm>=4.65",
+]
+
+[project.optional-dependencies]
+gpu = [
+    "jax[cuda12]>=0.4.20",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = [
+    "base",
+    "cannonball_srp",
+    "designer",
+    "estimation",
+    "force_modeling",
+    "harris_priester",
+    "integrator",
+    "map_srp",
+    "neural_srp",
+    "nn",
+    "physics",
+    "plotting",
+    "raytracing",
+    "srp_simulation",
+    "thermal_simulation",
+    "utils",
+]

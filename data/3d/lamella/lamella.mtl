@@ -1,0 +1,63 @@
+# Lamella cube materials
+# Each face has its own material for rotation control
+# Modified: All faces Gold MLI
+
+newmtl Face_PosX
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_PosX_back
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_NegX
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_NegX_back
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_PosY
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_PosY_back
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_NegY
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_NegY_back
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_PosZ
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_PosZ_back
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_NegZ
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
+
+newmtl Face_NegZ_back
+Kd 0.108 0.108 0.108
+Ks 0.612 0.612 0.612
+Ns 51.2
