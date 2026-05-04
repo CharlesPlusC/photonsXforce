@@ -1,9 +1,9 @@
 <p align="center">
 
-  <h1 align="center"><a href="https://doi.org/10.1145/3687900">Photons &times; Force: Differentiable Radiation Pressure Modeling</a></h1>
+  <h1 align="center"><a href="https://arxiv.org/abs/2602.10712">Photons &times; Force: Differentiable Radiation Pressure Modeling</a></h1>
 
   <div align="center">
-    <a href="https://doi.org/10.1145/3687900">
+    <a href="https://arxiv.org/abs/2602.10712">
       <img src="concept.png" alt="Concept" width="100%">
     </a>
   </div>
@@ -145,18 +145,23 @@ Each notebook in `experiments/` reproduces results from a section of the paper:
 
 ## License
 
-The code in this repository is provided under an MIT license.
+The accompanying paper is published under CC BY 4.0. The code in this repository is released under the PolyForm Noncommercial License 1.0.0; see LICENSE. Non-commercial use (research, teaching, personal projects, evaluation) is permitted; for commercial use, contact the authors.
 
 ## Citation
 
 ```bibtex
 @article{constant2026photonsxforce,
-    title     = {Photons$\,\times\,$Force: Differentiable Radiation Pressure Modeling},
     author    = {Constant, Charles and Bates, Elizabeth and Bhattarai, Santosh and Ziebart, Marek and Ritschel, Tobias},
-    journal   = {ACM Transactions on Graphics (TOG)},
-    volume    = {43},
-    number    = {6},
+    title     = {Photons$\,\times\,$Force: Differentiable Radiation Pressure Modeling},
+    journal   = {ACM Transactions on Graphics},
+    volume    = {45},
+    number    = {4},
+    articleno = {82},
+    month     = {7},
     year      = {2026},
-    publisher = {ACM}
+    publisher = {Association for Computing Machinery},
+    address   = {New York, NY, USA},
+    doi       = {10.1145/3811396},
+    url       = {https://doi.org/10.1145/3811396}
 }
 ```
